@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+  "name": "fl.vu url shortener",
+  "version": "0.1.0",
+  "description": "A url shortener which uses the fl.vu service by Faithlife.",
+  "author": "Benjamin Reed",
+  "homepage_url": "http://github.com/codeblooded/flvu",
+  "permissions": [
+    "tabs",
+    "http://www.fl.vu/",
+    "http://fl.vu/"
+  ],
+  "icons": { 
+    "16": "flvu_16.png",
+    "48": "flvu_48.png",
+    "128": "flvu_128.png" 
+  },
+  "browser_action": {
+    "default_title": "fl.vu",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["popup.js"],
+    "persistent": false
+  }
+}
