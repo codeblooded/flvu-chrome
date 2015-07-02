@@ -1,5 +1,5 @@
 {
-	"manifest_version": 2,
+  "manifest_version": 2,
   "name": "fl.vu url shortener",
   "version": "0.1.0",
   "description": "A url shortener which uses the fl.vu service by Faithlife.",
